@@ -1392,3 +1392,29 @@ body.light-mode .mobile-nav-overlay {
     height: 140px;
   }
 }
+
+@media (max-width: 480px) {
+  .hero-bottom {
+    grid-template-columns: 1fr;
+    gap: 24px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hero-scroll-hint {
+    justify-content: center;
+  }
+
+  .hero-dots {
+    justify-content: center;
+  }
+
+  .product-stats {
+    grid-template-columns: 1fr;
+  }
+  
+  .stat-item {
+    padding: 16px 0;
+  }
+}
